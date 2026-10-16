@@ -1,5 +1,5 @@
 {
-  "Name": "Bellier-2023-music-10.1371/journal.pbio.3002176",
+  "Name": "Bellier et al. 2023 Pink Floyd music listening ECoG: authors' high-frequency activity (HFA, 70-150 Hz) for 29 patients",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
@@ -64,5 +64,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000356",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
