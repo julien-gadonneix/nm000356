@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Bellier-2023-music-10.1371/journal.pbio.3002176",
+  "title": "Bellier et al. 2023 Pink Floyd music listening ECoG: authors' high-frequency activity (HFA, 70-150 Hz) for 29 patients",
   "description": "This dataset is a BIDS packaging of preprocessed electrocorticography (ECoG) high-frequency activity (70-150 Hz, 100 Hz sampling) from 29 patients with pharmacoresistant epilepsy who passively listened to Pink Floyd's 'Another Brick in the Wall, Part 1'. It includes electrode coordinates in MNI space and author-flagged noisy and epileptic channels. The data support encoding and decoding models for reconstructing music from human auditory cortex activity. Raw recordings and the stimulus audio are not included.",
   "methods_description": "ECoG was recorded at 1200 Hz with g.USBamp amplifiers and BCI2000 using clinical Ad-Tech grids and strips covering the superior temporal gyrus. High-frequency activity was derived by notch filtering, 1 Hz high-pass filtering, and 20-Hz sub-band filtering between 70 and 150 Hz. Each sub-band was median common-average referenced, and its Hilbert envelope was robust-scaled. The sub-bands were averaged and the result downsampled to 100 Hz, with samples above 7 SD tagged as outliers.",
   "license": "CC-BY-4.0",
@@ -156,5 +156,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "74351cac67424b5797a92969854cac6cbcb96a026936ec688c96d561cb0de9d1"
+  "source_hash": "6426f9ef0925d7ba87ea14930939a47856cf6806f78aed9d16e96c3124113a65"
 }
