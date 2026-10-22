@@ -6,7 +6,7 @@
     "Description": "n/a: no high-pass filter applies to the stored 100 Hz HFA envelope. The 70-150 Hz band it was extracted from is in the ieeg.json SoftwareFilters."
   },
   "high_cutoff": {
-    "Description": "n/a: the low-pass of the authors' downsampling to 100 Hz is not reported."
+    "Description": "n/a means not reported, not no low-pass: the authors' downsampling to 100 Hz (FieldTrip ft_resampledata, default method resample = MATLAB resample) applies an anti-aliasing low-pass whose cutoff is not reported (ieeg.json SoftwareFilters)."
   },
   "status": {
     "Description": "bad = electrode flagged by the authors as noisy or epileptic (dataInfo.idxNoisyElecs / idxEpilepticElecs); the authors excluded these from their analyses. The HFA values are kept as released."
